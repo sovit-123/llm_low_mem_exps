@@ -1,0 +1,72 @@
+# macOS system files
+.DS_Store
+
+# Custom directory
+sovitrath/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Weights & Biases
+wandb/
+
+# Conda environment files
+*.yaml
+
+# SentencePiece temporary files
+_unsloth_sentencepiece_temp/
+
+# PyTorch model files
+*.pth
+*.pt
+
+# Log files
+*.log
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
